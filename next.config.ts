@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "standalone", // for self-hosting or Docker
+  reactStrictMode: true,
 };
 
 export default nextConfig;
